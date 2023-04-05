@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+models/*
+data/nn_data_1680619232.pickle
+
 # C extensions
 *.so
 
