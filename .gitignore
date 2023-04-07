@@ -3,8 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-models/*
 data/nn_data_1680619232.pickle
+data/nn_small_strict_data_1680697000.pickle
 
 # C extensions
 *.so
