@@ -29,7 +29,7 @@ map_type = "roadmap"
 map_image_url = "https://maps.googleapis.com/maps/api/staticmap?" \
     "size={0}&maptype={1}&markers=color:red%7Clabel:S%7C{2},{3}&" \
     "markers=color:red%7Clabel:E%7C{4},{5}&path=weight:5%7Ccolor:blue%7Cenc:{6}&key={7}".format(
-        map_size, map_type, start_location[0], start_location[1], end_location[0], end_location[1], route, 'AIzaSyCEXtjl_G_dtv0FBRs6qifX-ZULgDPDI_E')
+        map_size, map_type, start_location[0], start_location[1], end_location[0], end_location[1], route, '')
 
 
 
