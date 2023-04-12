@@ -1,4 +1,4 @@
-![banner](https://user-images.githubusercontent.com/72699445/231571103-edd5bac9-deb4-48bb-ac9c-15984fe51c7e.png)
+![231571103-edd5bac9-deb4-48bb-ac9c-15984fe51c7e](https://user-images.githubusercontent.com/72699445/231577842-766443d0-64c4-4ab2-9e72-df3c69938031.png)
 
 The application helps tourists visit interesting places. The main idea is to use the input text from the user to create the interests vector and therefore recommend the best-fitting places in the visited city. The application not only finds the best-fitting places but also creates a comprehensive visiting plan according to user requirements.
 
