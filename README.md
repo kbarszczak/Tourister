@@ -24,12 +24,12 @@ cd Tourister
 git clone https://github.com/kbarszczak/Tourister .
 ```
 
-Next step is to install the requirements
+The next step is to install the requirements
 ```
 pip install -r requirements.txt
 ```
 
-Now the application is ready to lunch. Just run the main.py
+Now the application is ready for lunch. Just run the main.py
 ```
 python app/main.py
 ```
@@ -37,5 +37,5 @@ python app/main.py
 ## Possible improvements
 
 There are some things that may be improved. Those are some of them:
-- find a better places description to create an interest vector more precisely related with the place
+- find a better places description to create an interest vector more precisely related to the place
 - modify the training dataset and create it by taking more reliable data
