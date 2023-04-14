@@ -6,11 +6,11 @@ The application helps tourists visit interesting places. The main idea is to use
 
 The following image shows the places in Krakow sorted by the best-matching ones.
 
-![download](https://user-images.githubusercontent.com/72699445/231575278-af3412b4-4c60-41f1-9868-8d0b179027fa.png)
+![download (1)](https://user-images.githubusercontent.com/72699445/232027952-b2d0f782-af19-4091-8cc4-89b5a43cbd5f.png)
 
 and another example
 
-![download (1)](https://user-images.githubusercontent.com/72699445/231575879-950f39d2-0a86-4c6f-a9aa-19265af6a917.png)
+![download1](https://user-images.githubusercontent.com/72699445/232027894-c0a61353-87ab-4707-a5c4-72c102d22904.png)
 
 The application layout
 **todo: paste the app layout image**
