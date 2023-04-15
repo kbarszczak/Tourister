@@ -2,7 +2,11 @@
 
 The application helps tourists visit interesting places. The main idea is to use the input text from the user to create the interests vector and therefore recommend the best-fitting places in the visited city. The application not only finds the best-fitting places but also creates a comprehensive visiting plan according to user requirements.
 
-## The results
+# Build status
+
+Currently, we are building the proof of concept. However, there is going to be deployed a web application once we prove that the system works well.
+
+## Screenshots
 
 The following image shows the places in Krakow sorted by the best-matching ones.
 
