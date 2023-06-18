@@ -17,20 +17,17 @@ class MapFrame(ttk.Frame):
             (50.064192, 19.920094), # Additional location 1
             (50.051994, 19.938195) # Additional location 2
         ]
-                # Create labels and entry fields for user input
-        # tk.Label(self, text="Starting location:").grid(row=0, column=0, sticky="e")
-        # self.start_entry = tk.Entry(self)
-        # self.start_entry.grid(row=0, column=1)
-        
-        # tk.Label(self, text="Ending location:").grid(row=1, column=0, sticky="e")
-        # self.end_entry = tk.Entry(self)
-        # self.end_entry.grid(row=1, column=1)
-        
-        # # Create a button to trigger the map update
-        # self.update_button = tk.Button(self, text="Update Map", command=self.update_map)
-        # self.update_button.grid(row=2, column=1)
+
         self.canvas = tk.Canvas(self, width=600, height=400)
         self.update_map(locations)
+        self.chosen_day = 0
+
+    def create_routes(self, locations):
+        self.locations = locations
+        self.update_map(locations[0:5])
+
+    def change_day(self, day):
+        self.update_map(self.locations[day*5:day*5+5])
 
 
     def update_map(self, locations):
@@ -90,4 +87,3 @@ class MapFrame(ttk.Frame):
             self.canvas.create_line(float(x1), float(y1), float(x2), float(y2), fill='red', width=5)
 
         self.canvas.pack()
-        # self.canvas.grid(row=3, column=0, columnspan=2)
